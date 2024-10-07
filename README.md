@@ -11,4 +11,4 @@ Synchronizing apps without migrations:
     Creating table token_blacklist_outstandingtoken
     Creating table token_blacklist_blacklistedtoken
     Running deferred SQL...
-    
+  
