@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - File Explorer</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+<div class="window">
+  <div class="window-topbar">
+    <div class="window-topbar-left">
+      <div class="traverse">
+        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-right"></i>
+      </div>
+
+      <div class="address">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </div>
+    </div>
+
+    <div class="window-topbar-right">
+      <div class="topbar-btns">
+        <div id="minimize"></div>
+        <div id="maximize"></div>
+        <div id="close"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="window-body">
+    <div class="window-sidebar">
+      <ul>
+        <!-- sidebar items will be added through js -->
+      </ul>
+    </div>
+
+    <div class="window-content">
+      <!-- content items will be added through js -->
+    </div>
+  </div>
+</div>
+<button id="dark-mode">Dark Mode</button>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
